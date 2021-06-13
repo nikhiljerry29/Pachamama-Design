@@ -1,39 +1,32 @@
 :root {
-  --color-1 : #161616;
   --color-2 : #346751;
-  --color-3 : #c84b31;
   --color-4 : #ecdbba;
 
-}
-.bg-color-1 {
-  background-color: var(--color-1);
 }
 
 .bg-color-2 {
   background-color: var(--color-2);
 }
 
-.bg-color-3 {
-  background-color: var(--color-3);
-}
-
 .bg-color-4 {
   background-color: var(--color-4);
-}
-
-.text-color-1 {
-  color: var(--color-1);
 }
 
 .text-color-2 {
   color: var(--color-2);
 }
 
-.text-color-3 {
-  color: var(--color-3);
-}
-
 .text-color-4 {
   color: var(--color-4);
 }
 
+.carousel-caption {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 25px;
+  padding: 1.2%;
+}
+
+iframe{
+  width: 100%;
+  margin: 0;
+}
